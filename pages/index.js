@@ -20,33 +20,16 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className="mt-5 font-mono font-bold text-xl text-blue-300">
+      <section className="mt-5 text-xl text-blue-100">
         <p>Hello ✌️,</p>
         <p>
           I'm James. A good developer, better human and aspiring freelancer.
         </p>
         <p>This is my blog, where I share what I know.</p>
-        <p>
-          You can contact me on{" "}
-          <a
-            className="text-yellow-300 hover:text-green-300"
-            href="https://twitter.com/MemRook"
-          >
-            Twitter
-          </a>{" "}
-          and{" "}
-          <a
-            className="text-yellow-300 hover:text-green-300"
-            href="https://www.linkedin.com/in/jamesnathanielcox/"
-          >
-            LinkedIn
-          </a>
-          .
-        </p>
       </section>
 
       <section className={"mt-5"}>
-        <h2 className="text-yellow-300 text-2xl">Blog</h2>
+        <h2 className="font-mono text-yellow-300 text-2xl">Blog</h2>
         {/* <ul className="">
           {allPostsData.map(({ id, date, title }) => (
             <li className="" key={id}>
@@ -61,7 +44,6 @@ export default function Home({ allPostsData }) {
           ))}
         </ul> */}
       </section>
-      {/* <footer className="bg-gray-800 flex items-center justify-center w-full h-24 border-t border-blue-300"></footer> */}
     </Layout>
   );
 }
