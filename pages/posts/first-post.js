@@ -9,10 +9,10 @@ export default function FirstPost() {
         <title>First Post</title>
       </Head>
 
-      <h1 className="text-xl font-bold text-green-600">First Post</h1>
+      <h1 className="text-3xl font-bold text-blue-300">First Post</h1>
       <h2>
         <Link href="/">
-          <a className="font-mono font-bold text-xl text-blue-600">
+          <a className="font-mono font-bold text-xl text-yellow-300 hover:text-green-300">
             Back to home
           </a>
         </Link>
